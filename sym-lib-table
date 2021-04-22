@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BLDC_Tester_Board-rescue)(type Legacy)(uri ${KIPRJMOD}/BLDC_Tester_Board-rescue.lib)(options "")(descr ""))
+)
