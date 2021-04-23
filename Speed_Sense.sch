@@ -15,24 +15,24 @@ Comment4 ""
 $EndDescr
 $Comp
 L 74xx:74HC14 U12
-U 1 1 6078F9F9
-P 4950 1200
-F 0 "U12" H 4950 883 50  0000 C CNN
-F 1 "74HC14" H 4950 974 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4950 1200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4950 1200 50  0001 C CNN
-	1    4950 1200
-	-1   0    0    1   
-$EndComp
-$Comp
-L 74xx:74HC14 U12
-U 2 1 60790EE3
+U 5 1 6078F9F9
 P 4950 2600
 F 0 "U12" H 4950 2283 50  0000 C CNN
 F 1 "74HC14" H 4950 2374 50  0000 C CNN
 F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4950 2600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4950 2600 50  0001 C CNN
-	2    4950 2600
+	5    4950 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L 74xx:74HC14 U12
+U 2 1 60790EE3
+P 4950 4050
+F 0 "U12" H 4950 3733 50  0000 C CNN
+F 1 "74HC14" H 4950 3824 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4950 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4950 4050 50  0001 C CNN
+	2    4950 4050
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -108,10 +108,6 @@ Wire Wire Line
 Wire Wire Line
 	6400 2700 6400 2600
 Connection ~ 6400 2600
-Wire Wire Line
-	6400 3000 6400 3100
-Wire Wire Line
-	6400 1700 6400 1600
 Wire Wire Line
 	6400 1300 6400 1200
 Connection ~ 6400 1200
@@ -213,8 +209,6 @@ F 3 "~" H 7700 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7500 1200
-Wire Wire Line
-	7500 1200 7900 1200
 $Comp
 L Connector:TestPoint TP23
 U 1 1 618C7547
@@ -227,8 +221,6 @@ F 3 "~" H 7700 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 7500 2600
-Wire Wire Line
-	7500 2600 8000 2600
 $Comp
 L Connector:TestPoint TP24
 U 1 1 618C7DBF
@@ -356,14 +348,6 @@ Wire Wire Line
 Text Label 7250 4950 0    50   ~ 0
 DC5V
 Wire Wire Line
-	6400 3100 7300 3100
-Text Label 6600 3100 0    50   ~ 0
-ENCODER_GND
-Wire Wire Line
-	6400 1700 7200 1700
-Text Label 6600 1700 0    50   ~ 0
-ENCODER_GND
-Wire Wire Line
 	9500 1850 8600 1850
 Wire Wire Line
 	9500 1950 8600 1950
@@ -394,12 +378,12 @@ Wire Wire Line
 $Comp
 L 74xx:74HC14 U12
 U 4 1 607EAE96
-P 4950 4050
-F 0 "U12" H 4950 3733 50  0000 C CNN
-F 1 "74HC14" H 4950 3824 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4950 4050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4950 4050 50  0001 C CNN
-	4    4950 4050
+P 4950 1200
+F 0 "U12" H 4950 883 50  0000 C CNN
+F 1 "74HC14" H 4950 974 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4950 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 4950 1200 50  0001 C CNN
+	4    4950 1200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -528,19 +512,7 @@ F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/2
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 2850 7900 1200
-Connection ~ 7900 1200
-Wire Wire Line
-	7900 1200 8600 1200
-Wire Wire Line
-	8000 2850 8000 2600
-Connection ~ 8000 2600
-Wire Wire Line
-	8000 2600 8600 2600
-Wire Wire Line
-	8300 2850 9000 2850
-Wire Wire Line
-	9000 2850 9000 4950
+	9000 2700 9000 4950
 Connection ~ 9000 4950
 Wire Wire Line
 	8100 3450 7350 3450
@@ -550,7 +522,6 @@ Text GLabel 3450 1200 0    50   Input ~ 0
 PC9_TIM3_CH4
 Text GLabel 3450 2600 0    50   Input ~ 0
 PC8_TIM3_CH3
-NoConn ~ 8200 2850
 Wire Wire Line
 	4100 2600 4200 2600
 Wire Wire Line
@@ -571,4 +542,71 @@ Wire Wire Line
 Connection ~ 4250 1200
 Wire Wire Line
 	4250 1200 4650 1200
+$Comp
+L 74xx:74HC14 U12
+U 1 1 60993B12
+P 5000 6250
+F 0 "U12" H 5000 5933 50  0000 C CNN
+F 1 "74HC14" H 5000 6024 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5000 6250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5000 6250 50  0001 C CNN
+	1    5000 6250
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5300 6250
+NoConn ~ 4700 6250
+$Comp
+L 74xx:74HC14 U12
+U 6 1 60998194
+P 5000 6800
+F 0 "U12" H 5000 6483 50  0000 C CNN
+F 1 "74HC14" H 5000 6574 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5000 6800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC14" H 5000 6800 50  0001 C CNN
+	6    5000 6800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5300 6800
+NoConn ~ 4700 6800
+Wire Wire Line
+	7500 1200 8300 1200
+Wire Wire Line
+	7500 2600 8200 2600
+Wire Wire Line
+	8200 2850 8200 2600
+Connection ~ 8200 2600
+Wire Wire Line
+	8200 2600 8600 2600
+Wire Wire Line
+	8300 2850 8300 1200
+Connection ~ 8300 1200
+Wire Wire Line
+	8300 1200 8600 1200
+Wire Wire Line
+	7900 2850 7900 2700
+Wire Wire Line
+	7900 2700 9000 2700
+NoConn ~ 8000 2850
+$Comp
+L power:GND #PWR0150
+U 1 1 609FAD3D
+P 6400 3000
+F 0 "#PWR0150" H 6400 2750 50  0001 C CNN
+F 1 "GND" H 6405 2827 50  0000 C CNN
+F 2 "" H 6400 3000 50  0001 C CNN
+F 3 "" H 6400 3000 50  0001 C CNN
+	1    6400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0151
+U 1 1 609FB4EA
+P 6400 1600
+F 0 "#PWR0151" H 6400 1350 50  0001 C CNN
+F 1 "GND" H 6405 1427 50  0000 C CNN
+F 2 "" H 6400 1600 50  0001 C CNN
+F 3 "" H 6400 1600 50  0001 C CNN
+	1    6400 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
