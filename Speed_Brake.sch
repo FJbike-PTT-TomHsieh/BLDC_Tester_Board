@@ -524,7 +524,7 @@ U 1 1 60D03BF0
 P 8300 5500
 F 0 "J9" H 8218 5267 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 8218 5266 50  0001 C CNN
-F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Vertical" H 8300 5500 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal" H 8300 5500 50  0001 C CNN
 F 3 "~" H 8300 5500 50  0001 C CNN
 	1    8300 5500
 	1    0    0    1   
