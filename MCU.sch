@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -15,10 +15,10 @@ Comment4 ""
 $EndDescr
 $Comp
 L stm_nucleo_board:nucleo-g474re U2
-U 1 1 607B068A
+U 1 1 608CD2D9
 P 4450 2150
-AR Path="/607B068A" Ref="U2"  Part="1" 
-AR Path="/605EBA19/607B068A" Ref="J1"  Part="1" 
+AR Path="/608CD2D9" Ref="U2"  Part="1" 
+AR Path="/605EBA19/608CD2D9" Ref="J1"  Part="1" 
 F 0 "J1" H 4400 3225 50  0000 C CNN
 F 1 "nucleo-g474re" H 4400 3134 50  0000 C CNN
 F 2 "STM32-Nucleo-Board:stm32-nucleo64-board" H 4450 1000 50  0001 C CNN
@@ -28,10 +28,10 @@ F 3 "" H 4250 3050 50  0001 C CNN
 $EndComp
 $Comp
 L stm_nucleo_board:nucleo-g474re U2
-U 2 1 607B2F55
+U 2 1 608CD2DA
 P 7850 2150
-AR Path="/607B2F55" Ref="U2"  Part="2" 
-AR Path="/605EBA19/607B2F55" Ref="J1"  Part="2" 
+AR Path="/608CD2DA" Ref="U2"  Part="2" 
+AR Path="/605EBA19/608CD2DA" Ref="J1"  Part="2" 
 F 0 "J1" H 7800 3225 50  0000 C CNN
 F 1 "nucleo-g474re" H 7800 3134 50  0000 C CNN
 F 2 "STM32-Nucleo-Board:stm32-nucleo64-board" H 7850 1000 50  0001 C CNN
@@ -118,7 +118,7 @@ Wire Wire Line
 	8450 2200 9400 2200
 $Comp
 L power:VSS #PWR0105
-U 1 1 60E470B7
+U 1 1 608CD2DF
 P 9400 2200
 F 0 "#PWR0105" H 9400 2050 50  0001 C CNN
 F 1 "VSS" H 9415 2373 50  0000 C CNN
@@ -137,7 +137,7 @@ Text Label 1150 950  0    50   ~ 0
 DC5V
 $Comp
 L Device:CP1 C4
-U 1 1 61210B67
+U 1 1 608CD2E0
 P 1000 1150
 F 0 "C4" H 1115 1196 50  0000 L CNN
 F 1 "100uF/35V" H 1115 1105 50  0000 L CNN
@@ -452,7 +452,6 @@ Wire Wire Line
 	5350 4300 5450 4300
 NoConn ~ 3750 1900
 NoConn ~ 3750 2000
-NoConn ~ 3750 2300
 NoConn ~ 3750 2400
 NoConn ~ 3750 2500
 NoConn ~ 3750 2600
@@ -471,7 +470,6 @@ PC2_ADC1_IN8
 Wire Wire Line
 	3750 3000 3600 3000
 NoConn ~ 5050 1300
-NoConn ~ 5050 1400
 Text GLabel 5150 2600 2    50   Input ~ 0
 PA0_ADC2_IN1
 Text GLabel 5150 2700 2    50   Input ~ 0
@@ -498,20 +496,17 @@ NoConn ~ 8450 1500
 NoConn ~ 7150 1800
 NoConn ~ 7150 1900
 NoConn ~ 7150 2000
-NoConn ~ 7150 2100
 NoConn ~ 8450 2900
-Text GLabel 7050 2300 0    50   Input ~ 0
+Text GLabel 7050 2300 0    50   Output ~ 0
 PA9_TIM1_CH2
-Text GLabel 7050 2400 0    50   Input ~ 0
+Text GLabel 7050 2400 0    50   Output ~ 0
 PA8_TIM1_CH1
 Wire Wire Line
 	7050 2300 7150 2300
 Wire Wire Line
 	7050 2400 7150 2400
 NoConn ~ 7150 2500
-NoConn ~ 7150 2600
-NoConn ~ 7150 2700
-Text GLabel 7050 2900 0    50   Input ~ 0
+Text GLabel 7050 2900 0    50   Output ~ 0
 PA10_TIM1_CH3
 Wire Wire Line
 	7050 2900 7150 2900
@@ -524,7 +519,7 @@ PB13_ADC3_IN5
 Wire Wire Line
 	8550 2700 8450 2700
 NoConn ~ 8450 2600
-Text GLabel 8550 2500 2    50   Input ~ 0
+Text GLabel 8550 2500 2    50   Output ~ 0
 PB15_TIM1_CH3N
 Wire Wire Line
 	8550 2500 8450 2500
@@ -550,11 +545,31 @@ Wire Wire Line
 	7050 1300 7150 1300
 NoConn ~ 7150 1400
 NoConn ~ 7150 1500
-Text GLabel 8550 1800 2    50   Input ~ 0
+Text GLabel 8550 1800 2    50   Output ~ 0
 PA12_TIM1_CH2N
-Text GLabel 8550 1900 2    50   Input ~ 0
+Text GLabel 8550 1900 2    50   Output ~ 0
 PA11_TIM1_CH1N
 Text GLabel 8550 2000 2    50   Input ~ 0
 PB12_TIM1_BKIN
 NoConn ~ 7150 2200
+Text GLabel 7000 2100 0    50   Output ~ 0
+PB6_CAN2_TX
+Wire Wire Line
+	7000 2100 7150 2100
+Text GLabel 7000 2700 0    50   Input ~ 0
+PB5_CAN2_RX
+Wire Wire Line
+	7000 2700 7150 2700
+Text GLabel 5500 1400 2    50   Input ~ 0
+PD2_UART5_RX
+Wire Wire Line
+	5500 1400 5050 1400
+Text GLabel 7050 2600 0    50   Output ~ 0
+PB4_UART5_DE
+Wire Wire Line
+	7150 2600 7050 2600
+Text GLabel 3600 2300 0    50   Output ~ 0
+PB7
+Wire Wire Line
+	3600 2300 3750 2300
 $EndSCHEMATC

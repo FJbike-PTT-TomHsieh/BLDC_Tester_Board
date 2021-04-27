@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -733,11 +733,11 @@ F 3 "" H 6650 4450 50  0001 C CNN
 	1    6650 4450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3750 1250 0    50   Input ~ 0
+Text GLabel 3750 1250 0    50   Output ~ 0
 PB0_HALL_S1
-Text GLabel 3750 2300 0    50   Input ~ 0
+Text GLabel 3750 2300 0    50   Output ~ 0
 PB1_HALL_S2
-Text GLabel 3750 3350 0    50   Input ~ 0
+Text GLabel 3750 3350 0    50   Output ~ 0
 PB2_HALL_S3
 Wire Wire Line
 	5450 7150 5450 7200

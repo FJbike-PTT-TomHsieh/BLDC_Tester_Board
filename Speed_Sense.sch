@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -518,9 +518,9 @@ Wire Wire Line
 	8100 3450 7350 3450
 Text Label 7400 3450 0    50   ~ 0
 ENCODER_GND
-Text GLabel 3450 1200 0    50   Input ~ 0
+Text GLabel 3450 1200 0    50   Output ~ 0
 PC9_TIM3_CH4
-Text GLabel 3450 2600 0    50   Input ~ 0
+Text GLabel 3450 2600 0    50   Output ~ 0
 PC8_TIM3_CH3
 Wire Wire Line
 	4100 2600 4200 2600

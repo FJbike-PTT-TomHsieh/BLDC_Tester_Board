@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 6 8
 Title ""
 Date ""
 Rev ""
@@ -726,11 +726,11 @@ F 3 "~" H 4100 5300 50  0001 C CNN
 	1    3900 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 1450 0    50   Input ~ 0
+Text GLabel 2700 1450 0    50   Output ~ 0
 PB13_ADC3_IN5
-Text GLabel 3000 3350 0    50   Input ~ 0
+Text GLabel 3000 3350 0    50   Output ~ 0
 PB12_TIM1_BKIN
-Text GLabel 2600 5300 0    50   Input ~ 0
+Text GLabel 2600 5300 0    50   Output ~ 0
 PB11
 Text Label 4300 5600 0    50   ~ 0
 DC3V3
@@ -863,4 +863,10 @@ Wire Wire Line
 	2600 5300 3150 5300
 Wire Wire Line
 	3000 3350 3150 3350
+Text Label 7400 3950 0    50   ~ 0
+BRAKE_L_GND
+Text Label 7400 5900 0    50   ~ 0
+BRAKE_R_GND
+Text Label 6800 2050 0    50   ~ 0
+SPEED_ADJ_GND
 $EndSCHEMATC

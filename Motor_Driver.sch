@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title ""
 Date ""
 Rev ""
@@ -1828,17 +1828,17 @@ Text GLabel 4100 6400 0    50   Input ~ 0
 PB15_TIM1_CH3N
 Text GLabel 4100 6500 0    50   Input ~ 0
 PA10_TIM1_CH3
-Text GLabel 6800 10450 0    50   Input ~ 0
+Text GLabel 6800 10450 0    50   Output ~ 0
 PC3_ADC2_IN9
-Text GLabel 8600 10450 0    50   Input ~ 0
+Text GLabel 8600 10450 0    50   Output ~ 0
 PA0_ADC2_IN1
-Text GLabel 10450 10450 0    50   Input ~ 0
+Text GLabel 10450 10450 0    50   Output ~ 0
 PA1_ADC2_IN2
-Text GLabel 11800 2800 2    50   Input ~ 0
+Text GLabel 11800 2800 2    50   Output ~ 0
 PC0_ADC1_IN6
-Text GLabel 11800 5250 2    50   Input ~ 0
+Text GLabel 11800 5250 2    50   Output ~ 0
 PC1_ADC1_IN7
-Text GLabel 11800 7700 2    50   Input ~ 0
+Text GLabel 11800 7700 2    50   Output ~ 0
 PC2_ADC1_IN8
 Wire Wire Line
 	10600 8500 10600 8700
