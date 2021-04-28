@@ -13,32 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L stm_nucleo_board:nucleo-g474re U2
-U 1 1 608CD2D9
-P 4450 2150
-AR Path="/608CD2D9" Ref="U2"  Part="1" 
-AR Path="/605EBA19/608CD2D9" Ref="J1"  Part="1" 
-F 0 "J1" H 4400 3225 50  0000 C CNN
-F 1 "nucleo-g474re" H 4400 3134 50  0000 C CNN
-F 2 "STM32-Nucleo-Board:stm32-nucleo64-board" H 4450 1000 50  0001 C CNN
-F 3 "" H 4250 3050 50  0001 C CNN
-	1    4450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L stm_nucleo_board:nucleo-g474re U2
-U 2 1 608CD2DA
-P 7850 2150
-AR Path="/608CD2DA" Ref="U2"  Part="2" 
-AR Path="/605EBA19/608CD2DA" Ref="J1"  Part="2" 
-F 0 "J1" H 7800 3225 50  0000 C CNN
-F 1 "nucleo-g474re" H 7800 3134 50  0000 C CNN
-F 2 "STM32-Nucleo-Board:stm32-nucleo64-board" H 7850 1000 50  0001 C CNN
-F 3 "" H 7650 3050 50  0001 C CNN
-	2    7850 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8450 1800 8550 1800
 Wire Wire Line
@@ -572,4 +546,26 @@ Text GLabel 3600 2300 0    50   Output ~ 0
 PB7
 Wire Wire Line
 	3600 2300 3750 2300
+$Comp
+L stm_nucleo_board:stm32-nucleo64-Morpho J1
+U 1 1 608D633A
+P 4450 2150
+F 0 "J1" H 4400 3225 50  0000 C CNN
+F 1 "stm32-nucleo64-Morpho" H 4400 3134 50  0000 C CNN
+F 2 "STM32-Nucleo-Board:stm32-nucleo64-Morpho" H 4450 1000 50  0001 C CNN
+F 3 "" H 4250 3050 50  0001 C CNN
+	1    4450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L stm_nucleo_board:stm32-nucleo64-Morpho J1
+U 2 1 608DA12E
+P 7850 2150
+F 0 "J1" H 7800 3225 50  0000 C CNN
+F 1 "stm32-nucleo64-Morpho" H 7800 3134 50  0000 C CNN
+F 2 "STM32-Nucleo-Board:stm32-nucleo64-Morpho" H 7850 1000 50  0001 C CNN
+F 3 "" H 7650 3050 50  0001 C CNN
+	2    7850 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

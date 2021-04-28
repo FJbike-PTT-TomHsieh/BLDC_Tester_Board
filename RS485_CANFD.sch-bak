@@ -479,21 +479,7 @@ Wire Wire Line
 Wire Wire Line
 	14800 3650 14800 4250
 Wire Wire Line
-	13850 1750 13950 1750
-Wire Wire Line
-	13850 1650 14650 1650
-Wire Wire Line
 	13700 2550 14300 2550
-Wire Wire Line
-	13950 2050 13950 1750
-Connection ~ 13950 1750
-Wire Wire Line
-	13950 1750 14750 1750
-Wire Wire Line
-	14650 2050 14650 1650
-Connection ~ 14650 1650
-Wire Wire Line
-	14650 1650 14750 1650
 Wire Wire Line
 	14300 2200 14300 2550
 Connection ~ 14300 2550
@@ -665,4 +651,18 @@ Wire Wire Line
 	14800 6300 14800 6200
 Wire Wire Line
 	14900 6300 14900 6100
+Wire Wire Line
+	13850 1650 13950 1650
+Wire Wire Line
+	14650 2050 14650 1750
+Connection ~ 14650 1750
+Wire Wire Line
+	14650 1750 14750 1750
+Wire Wire Line
+	13850 1750 14650 1750
+Wire Wire Line
+	13950 2050 13950 1650
+Connection ~ 13950 1650
+Wire Wire Line
+	13950 1650 14750 1650
 $EndSCHEMATC

@@ -412,13 +412,13 @@ VMOT
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 606CAE5A
-P 3200 5700
-F 0 "J10" H 3200 5500 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 3118 5466 50  0001 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3200 5700 50  0001 C CNN
-F 3 "~" H 3200 5700 50  0001 C CNN
-	1    3200 5700
-	-1   0    0    -1  
+P 3200 5800
+F 0 "J10" H 3200 5600 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3118 5566 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3200 5800 50  0001 C CNN
+F 3 "~" H 3200 5800 50  0001 C CNN
+	1    3200 5800
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Fuse F1
@@ -426,7 +426,7 @@ U 1 1 606CC1EA
 P 3700 5300
 F 0 "F1" V 3503 5300 50  0000 C CNN
 F 1 "Fuse" V 3594 5300 50  0000 C CNN
-F 2 "Fuse:Fuse_SunFuse-6HP" V 3630 5300 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open" V 3630 5300 50  0001 C CNN
 F 3 "~" H 3700 5300 50  0001 C CNN
 	1    3700 5300
 	0    1    1    0   
@@ -524,7 +524,7 @@ U 1 1 60801D7C
 P 4250 5750
 F 0 "FL1" H 4250 5939 50  0000 C CNN
 F 1 "EMI_Filter_LL_1423" H 4250 5940 50  0001 C CNN
-F 2 "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm" H 4250 5500 50  0001 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN242-04-18.0x31.0mm" H 4250 5500 50  0001 C CNN
 F 3 "~" V 4250 5790 50  0001 C CNN
 	1    4250 5750
 	1    0    0    -1  
