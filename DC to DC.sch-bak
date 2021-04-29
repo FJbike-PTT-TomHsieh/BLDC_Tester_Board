@@ -412,13 +412,13 @@ VMOT
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 606CAE5A
-P 3200 5700
-F 0 "J10" H 3200 5500 50  0000 C CNN
-F 1 "Screw_Terminal_01x02" H 3118 5466 50  0001 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3200 5700 50  0001 C CNN
-F 3 "~" H 3200 5700 50  0001 C CNN
-	1    3200 5700
-	-1   0    0    -1  
+P 3200 5800
+F 0 "J10" H 3200 5600 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3118 5566 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3200 5800 50  0001 C CNN
+F 3 "~" H 3200 5800 50  0001 C CNN
+	1    3200 5800
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:Fuse F1

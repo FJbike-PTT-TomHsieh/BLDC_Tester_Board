@@ -433,7 +433,6 @@ NoConn ~ 3750 2700
 NoConn ~ 3750 2800
 NoConn ~ 3750 2900
 NoConn ~ 3750 1300
-NoConn ~ 3750 1400
 NoConn ~ 3750 2100
 Text GLabel 3600 3100 0    50   Input ~ 0
 PC3_ADC2_IN9
@@ -568,4 +567,8 @@ F 3 "" H 7650 3050 50  0001 C CNN
 	2    7850 2150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 1400 3650 1400
+Text GLabel 3650 1400 0    50   Output ~ 0
+PC12_UART5_TX
 $EndSCHEMATC
